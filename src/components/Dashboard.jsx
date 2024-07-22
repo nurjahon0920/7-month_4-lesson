@@ -10,15 +10,12 @@ import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
 import Badge from "@mui/material/Badge";
-import Container from "@mui/material/Container";
-// import Link from "@mui/material/Link";
 import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { mainListItems } from "./listItems";
 import PersonIcon from "@mui/icons-material/Person";
 import { Link } from "react-router-dom";
 import Profile from "./../pages/Profile";
-import Chart from "./../pages/Chart";
 
 const drawerWidth = 240;
 
@@ -140,9 +137,6 @@ export default function Dashboard() {
             overflow: "auto",
           }}>
           <Toolbar />
-          {/* <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-            <Chart />
-          </Container> */}
         </Box>
       </Box>
     </ThemeProvider>

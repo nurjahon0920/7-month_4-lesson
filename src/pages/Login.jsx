@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { useAuth } from "../hooks/useAuth";
-// import StyledButton from "../components/shared/StyledButton";
 import "./style.css";
 import { Button, TextField } from "@mui/material";
 
