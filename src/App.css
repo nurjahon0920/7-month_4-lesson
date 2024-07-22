@@ -1,0 +1,10 @@
+.fetch_form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.Table {
+  max-width: 790px;
+  width: 100%;
+}
